@@ -288,6 +288,54 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b00 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b00 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b04 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b05 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b06 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b07 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b08 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b09 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b10 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b11 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b12 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b13 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b14 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b15 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b16 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.elf \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.lst:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.lst \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
+    vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
