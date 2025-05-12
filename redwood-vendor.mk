@@ -581,6 +581,7 @@ PRODUCT_PACKAGES += \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
+    libswdap \
     libswgamedap \
     libswvqe \
     vendor.dolby.hardware.dms@2.0 \
