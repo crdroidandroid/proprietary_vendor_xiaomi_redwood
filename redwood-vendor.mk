@@ -577,6 +577,7 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     libxml \
     libhwdap \
+    libmisoundfx \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
