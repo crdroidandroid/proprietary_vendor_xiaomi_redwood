@@ -25752,6 +25752,41 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "shsusrd",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/shsusrd",
+            ],
+            shared_libs: [
+                "libcrypto",
+                "libssl",
+                "libqmiservices",
+                "libqmi_cci",
+                "libqmi_common_so",
+                "libqmi_client_qmux",
+                "libqmi_client_helper",
+                "libdsutils",
+                "libconfigdb",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "sscrpcd",
     owner: "xiaomi",
     target: {
