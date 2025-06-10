@@ -7,6 +7,64 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/AlarmClock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/AlarmClock.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Beep.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Beep.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Breeze.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Breeze.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Chimes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Chimes.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Daydream.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Daydream.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Dewdrops.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Dewdrops.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Fireflies.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Fireflies.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Morning.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/alarms/Sunrise.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sunrise.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Bottle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bottle.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Bubble.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bubble.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Bullfrog.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Bullfrog.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Burst.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Burst.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Chirp.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Chirp.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Clank.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Clank.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Crystal.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Crystal.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/FadeIn.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/FadeIn.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/FadeOut.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/FadeOut.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Flute.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Flute.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Fresh.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Fresh.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Frog.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Frog.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Guitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Guitar.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Harp.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Harp.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Moment.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Moment.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/NotificationXylophone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/NotificationXylophone.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Potion.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Potion.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Radar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Radar.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Spring.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Spring.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/Swoosh.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Swoosh.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/notifications/WindChime.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/WindChime.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/AcousticGuitar.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/AcousticGuitar.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Atlantis.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Atlantis.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Candy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Candy.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Carousel.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Carousel.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Celesta.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Celesta.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Childhood.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Childhood.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Country.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Country.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Cowboy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Cowboy.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/DigitalUniverse.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/DigitalUniverse.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Fairyland.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Fairyland.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Fantasy.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Fantasy.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/FieldTrip.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/FieldTrip.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Glee.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Glee.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/IceLatte.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/IceLatte.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Kungfu.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Kungfu.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Lollipop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lollipop.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Mi.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Mi.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/MiHouse.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiHouse.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/MiJazz.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiJazz.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/MiMix2.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiMix2.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/MiRemix.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MiRemix.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/MountainSpring.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/MountainSpring.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Orange.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Orange.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/POCO.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/POCO.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Reveries.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Reveries.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/SpaceAge.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/SpaceAge.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/ToyRobot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/ToyRobot.ogg \
+    vendor/xiaomi/redwood/proprietary/product/media/audio/ringtones/Vigor.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Vigor.ogg \
     vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
     vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/redwood/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
