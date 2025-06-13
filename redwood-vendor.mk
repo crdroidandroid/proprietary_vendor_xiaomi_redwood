@@ -829,7 +829,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     camera.qcom \
     camera.xiaomi \
-    com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     fingerprint.goodix.default \
     vendor.qti.esepowermanager@1.1-impl \
