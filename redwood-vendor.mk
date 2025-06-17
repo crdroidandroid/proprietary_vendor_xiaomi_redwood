@@ -645,7 +645,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0 \
     btaudio_offload_if \
     audio.primary.lahaina \
-    sound_trigger.primary.lahaina \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     liba2dpoffload \
     libacdb-fts \
