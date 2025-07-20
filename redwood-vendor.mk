@@ -298,6 +298,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/xiaomi/redwood/proprietary/vendor/etc/media_profiles_yupik_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_yupik_v1.xml \
     vendor/xiaomi/redwood/proprietary/vendor/etc/media_yupik_v1/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_yupik_v1/video_system_specs.json \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLutInfo.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLutInfo.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_0.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_1.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_10.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_11.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_12.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_13.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_14.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_15.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_16.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_17.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_2.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_3.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_4.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_5.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_6.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_7.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_8.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/miLut_9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_9.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/mi_gc_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/mi_gc_0.txt \
+    vendor/xiaomi/redwood/proprietary/vendor/etc/mi_gc_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/mi_gc_1.txt \
     vendor/xiaomi/redwood/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/redwood/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/redwood/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
